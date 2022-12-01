@@ -1,7 +1,9 @@
+import Counter from "./features/counter/Counter";
+
 function App() {
   return (
-    <div className="App">
-      <h1>Redux Toolkit</h1>
+    <div>
+      <Counter />
     </div>
   );
 }
